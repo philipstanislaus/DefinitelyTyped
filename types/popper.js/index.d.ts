@@ -1,6 +1,10 @@
 // Type definitions for popper.js 1.10
 // Project: https://github.com/FezVrasta/popper.js/
-// Definitions by: rhysd <https://rhysd.github.io>, joscha <https://github.com/joscha>, seckardt <https://github.com/seckardt>, marcfallows <https://github.com/marcfallows>
+// Definitions by: rhysd <https://rhysd.github.io>
+//                 joscha <https://github.com/joscha>
+//                 seckardt <https://github.com/seckardt>
+//                 marcfallows <https://github.com/marcfallows>
+//                 Philip Stanislaus <https://github.com/philipstanislaus>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 declare namespace Popper {
@@ -43,6 +47,7 @@ declare namespace Popper {
       priority?: Position[],
       padding?: number,
       boundariesElement?: string | Element,
+      escapeWithReference?: boolean,
     };
     keepTogether?: BaseModifier;
     arrow?: BaseModifier & {

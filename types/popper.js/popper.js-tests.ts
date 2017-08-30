@@ -44,6 +44,7 @@ const thePopperWithOptions = new Popper(
                 priority: ['top', 'bottom'],
                 padding: 1,
                 boundariesElement: boundary,
+                escapeWithReference: true,
             },
             keepTogether: {
                 enabled: false,
